@@ -1,6 +1,23 @@
-font-family: 'Ubuntu', sans-serif;
+body{background-color: rgb(127, 214, 255);
 
-h1 {
-    border: 2px solid red;
-    border-radius: 5px;
-  }
+}
+
+/* I want to use this format for all my pages. however I am stuck like chuck */
+
+.header{background-color: aquamarine;
+height: 75px;
+width: 50;
+font-style: italic;
+font: bold;
+border: 2px solid black;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.nav{
+    font-size: 20px;
+    height: 20px;
+    
+}
