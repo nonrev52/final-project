@@ -51,6 +51,11 @@ border: 2px solid black;
   display: inline-block;
 }
 
+.bus-img{
+  background-image: url("../img/bus-beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .map{
   height: 200px;
