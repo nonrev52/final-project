@@ -2,7 +2,7 @@ body{background-color: rgb(127, 214, 255);
 
 }
 
-/* I want to use this format for all my pages. however I am stuck like chuck */
+/* I want to use this format for all my pages. How do I adjust the img */
 
 .header{background-color: aquamarine;
 height: 75px;
@@ -55,6 +55,18 @@ border: 2px solid black;
   background-image: url("../img/bus-beach.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.trip-img{
+  background-image: url("../img/charter-campers.jpg");
+  background-size: cover;
+  
+}
+
+.safety-img{
+  background-image: url(../img/driver-training.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .map{
