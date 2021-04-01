@@ -5,7 +5,7 @@ body{background-color: rgb(127, 214, 255);
 /* I want to use this format for all my pages. How do I adjust the img */
 
 .header{
-  background-color: aquamarine;
+  background-color: rgb(187, 197, 194);
 height: 75px;
 font-style: italic;
 font: bold;
