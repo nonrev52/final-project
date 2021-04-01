@@ -6,21 +6,32 @@ body{background-color: rgb(127, 214, 255);
 
 .header{
   background-color: rgb(187, 197, 194);
-height: 75px;
+height: 110px;
 font-style: italic;
 font: bold;
 border: 2px solid black;
   border-radius: 5px;
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px; */
   padding-top: 15px;
 }
+
+.header-title{
+display: inline-block;
+width: 700px;
+position: relative;
+bottom: 40px;
+right: 75px;
+}
+
 /* .head-logo{
   height: 50px;
 } */
 
 .head-img{
-  height: 50px;
+  height: 100px;
+  bottom: 40px;
+display: inline-block;
 
 }
 
@@ -46,14 +57,13 @@ border: 2px solid black;
 .navlink:hover{
   color: green;
 }
+
 /* content*/
 .main-wrap{
   margin-top: 100px;
   height: 800px;
   text-align-last: center;
   font-size: 45px;
-  /* border: 1px solid black; */
-
 
 }
 
@@ -71,6 +81,7 @@ border: 2px solid black;
 }
 
 .bus-img{
+  
   background-image: url("../img/bus-beach.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,9 +98,6 @@ border: 2px solid black;
 background-size: cover;
 background-repeat: no-repeat;
 }
-
-
-
 
 /* CONTACT FORM */
 
@@ -144,16 +152,13 @@ input[type=submit]:hover {
   background-size: auto;
 }
 .about-text{
-  
   font-size: 30px;
   margin: 20px 10px 0px 10px;
   text-align: left;
 
-
 }
 
 .about-vid{
-  
   margin-bottom: 100px;
   padding-top: 50px;
 
